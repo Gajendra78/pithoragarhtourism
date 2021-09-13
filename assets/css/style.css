@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -12,17 +10,26 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 :root {
     --primary: ;
-    --secondary:;
-    
-  }
+    --secondary: ;
+}
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+    background: rgb(118, 255, 157);
+    background: radial-gradient(circle, rgba(118, 255, 157, 0.87718837535014) 0%, rgba(190, 223, 222, 0.8435749299719888) 51%, rgba(158, 197, 255, 0.865983893557423) 100%);
+
+}
+
+.bgcolor {
+    background: rgb(118, 255, 157);
+    background: radial-gradient(circle, rgba(118, 255, 157, 0.87718837535014) 0%, rgba(190, 223, 222, 0.8435749299719888) 51%, rgba(158, 197, 255, 0.865983893557423) 100%);
 }
 
 .center {
@@ -265,7 +272,9 @@ html {
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
-    background: linear-gradient(#46f964, #46f9d2);
+    background: rgb(118, 255, 157);
+    background: radial-gradient(circle, rgba(118, 255, 157, 0.87718837535014) 0%, rgba(190, 223, 222, 0.8435749299719888) 51%, rgba(158, 197, 255, 0.865983893557423) 100%);
+
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -370,6 +379,7 @@ h1 {
 	text-shadow: 4px 2px 2px  #171717; */
     margin: 2rem;
     color: #1a73e8 !important;
+    font-size: 5.5rem;
     font-weight: 600;
     font-family: 'Allura', cursive;
 }
@@ -384,7 +394,7 @@ p {
     margin: 2rem 0;
     color: #000000;
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 img {
@@ -502,18 +512,19 @@ html, body {
     margin-top: 0px;
 }
 
-
-
-/* ======================================================= about pith ===================================================== */
+/* ======================================================= Immersive Experiences ===================================================== */
 
 .fancy-cards {
     text-align: center;
-    margin: 80px auto;
+    margin: auto;
+    background: rgb(118,255,157);
+background: radial-gradient(circle, rgba(118,255,157,0.87718837535014) 0%, rgba(190,223,222,0.8435749299719888) 51%, rgba(158,197,255,0.865983893557423) 100%);
 }
 
 .card {
     border: none;
     background: #fff;
+    margin: 40px auto;
 }
 
 .fancy-cards .fancy-card {
