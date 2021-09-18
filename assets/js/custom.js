@@ -301,7 +301,12 @@ function changeSlide() {
 
 }
 
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
 
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
 
 const slidesElm = document.querySelectorAll(".slider-container .slide-box");
 
@@ -311,6 +316,8 @@ Array.from(slidesElm).forEach((slide) => {
     slide.classList.add("active");
   });
 });
+
+
 
 
 
