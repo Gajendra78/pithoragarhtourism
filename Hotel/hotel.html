@@ -69,263 +69,188 @@
         </nav>
 
         <!-- here -->
-        <div class="wrapper mx-auto col-md-9">
-            <div class="cards mx-auto col-lg-12">
-                <div class="card">
-                    <div class="card__img">
-                        <picture>
-                            <source media="(max-width: 320px)"
-                                srcset="https://images.unsplash.com/photo-1530629013299-6cb10d168419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80">
+        <div class="mx-auto col-md-9">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <button id="myBtn">Open Modal</button>
 
-                            <source media="(min-width: 538px)"
-                                srcset="https://images.unsplash.com/photo-1530629013299-6cb10d168419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=1500">
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1530629013299-6cb10d168419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=1500">
-                        </picture>
-                    </div>
-                    <div class="card__details">
-                        <h3 for="cozyroom">Cozying Room</h3>
-                        <div class="address">St.lorem ipsum des</div>
-                        <div class="price">
-                            <div class="star">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                            </div>
-                            <div class="price__l">
-                                <span class="price__label">IDR 1500K /</span>
-                                <span class="measure__label">night</span>
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>Some text in the Modal..</p>
+                                </div>
+
                             </div>
                         </div>
-                        <button class="modal-body">Detail</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Launch demo modal
+                            </button>
 
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop">
-                            Launch static backdrop modal
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Understood</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
-
-                <div class="card">
-                    <div class="card__img">
-                        <picture>
-                            <source media="(max-width: 400px)"
-                                srcset="https://images.unsplash.com/photo-1507038772120-7fff76f79d79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80">
-
-                            <source media="(min-width: 481px)"
-                                srcset="https://images.unsplash.com/photo-1507038772120-7fff76f79d79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=80">
-
-
-                            <img
-                                src="https://images.unsplash.com/photo-1507038772120-7fff76f79d79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80">
-                        </picture>
-                    </div>
-                    <div class="card__details">
-                        <h3 for="tomato">House sweet</h3>
-                        <div class="address">Gandaria</div>
-                        <div class="price">
-                            <div class="star">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                            </div>
-                            <div class="price__l">
-                                <span class="price__label">IDR 950K /</span>
-                                <span class="measure__label">night</span>
-                            </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
                         </div>
-                        <button>Detail</button>
-                        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-    Launch static backdrop modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
-        </div>
-      </div>
-    </div>
-  </div>
                     </div>
-                    <span class="credit-img">image by: unsplash.com/@antocave</span>
                 </div>
-
-                <div class="card">
-                    <div class="card__img">
-                        <picture>
-                            <source media="(max-width: 400px)"
-                                srcset="https://images.unsplash.com/photo-1541123356219-284ebe98ae3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80">
-
-                            <source media="(min-width: 481px)"
-                                srcset="https://images.unsplash.com/photo-1541123356219-284ebe98ae3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=100">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1541123356219-284ebe98ae3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80">
-                        </picture>
-                    </div>
-                    <div class="card__details">
-                        <h3 for="cozyroom">Makau Homestay</h3>
-                        <div class="address">Cipete</div>
-
-                        <div class="price">
-                            <div class="star">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                            </div>
-                            <div class="price__l">
-                                <span class="price__label">IDR 2500K /</span>
-                                <span class="measure__label">night</span>
-                            </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
                         </div>
-                        <button>Detail</button>
                     </div>
-                    <span class="credit-img">image by: unsplash.com/@sidekix</span>
                 </div>
-
-                <div class="card">
-                    <div class="card__img">
-                        <picture>
-                            <source media="(max-width: 320px)"
-                                srcset="https://images.unsplash.com/photo-1545022388-9e6d95c77174?ixlib=rb-1.2.1&auto=format&fit=crop&w=335&h=200&q=80">
-
-                            <source media="(max-width: 500px)"
-                                srcset="https://images.unsplash.com/photo-1545022388-9e6d95c77174?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=200&q=100">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1545022388-9e6d95c77174?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=200&q=80">
-                        </picture>
-                    </div>
-                    <div class="card__details">
-                        <h3 for="cozyroom">Bogor Cozy Homestay</h3>
-                        <div class="address">Bogor</div>
-
-                        <div class="price">
-                            <div class="star">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                            </div>
-                            <div class="price__l">
-                                <span class="price__label">IDR 2500K /</span>
-                                <span class="measure__label">night</span>
-                            </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
                         </div>
-                        <button>Detail</button>
                     </div>
-                    <span class="credit-img">image by: unsplash.com/@josesorianophoto</span>
                 </div>
-
-                <div class="card">
-                    <div class="card__img">
-                        <picture>
-                            <source media="(max-width: 320px)"
-                                srcset="https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80">
-
-                            <source media="(max-width: 500px)"
-                                srcset="https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=100">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200&q=80">
-                        </picture>
-                    </div>
-                    <div class="card__details">
-                        <h3 for="cozyroom">Tribeca BedMy</h3>
-                        <div class="address">Jakarta</div>
-
-                        <div class="price">
-                            <div class="star">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                            </div>
-                            <div class="price__l">
-                                <span class="price__label">IDR 750K /</span>
-                                <span class="measure__label">night</span>
-                            </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
                         </div>
-                        <button>Detail</button>
                     </div>
-                    <span class="credit-img">image by: unsplash.com/@chastityco</span>
                 </div>
-
-                <div class="card">
-                    <div class="card__img">
-                        <picture>
-                            <source media="(max-width: 320px)"
-                                srcset="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80">
-
-                            <source media="(max-width: 500px)"
-                                srcset="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=100">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=80">
-                        </picture>
-                    </div>
-                    <div class="card__details">
-                        <h3 for="cozyroom">Les't Carrot</h3>
-                        <div class="address">Bandung</div>
-
-                        <div class="price">
-                            <div class="star">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
-                            </div>
-                            <div class="price__l">
-                                <span class="price__label">IDR 1750K /</span>
-                                <span class="measure__label">night</span>
-                            </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
                         </div>
-                        <button>Detail</button>
                     </div>
-                    <span class="credit-img">image by: unsplash.com/@ialicantemediterraneanhomes</span>
                 </div>
-
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
+                        <div class="card-body">
+                            <h4 class="card-title">Bologna</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Emilia-Romagna Region, Italy</h6>
+                            <p class="card-text">It is the seventh most populous city in Italy, at the heart of a
+                                metropolitan area of about one million people. </p>
+                            <a href="#" class="card-link">Read More</a>
+                            <a href="#" class="card-link">Book a Trip</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -568,6 +493,23 @@
     <script src="../assets/js/jquery.sticky.js"></script>
     <script src="../assets/js/datepicker.js"></script>
     <script src="../assets/js/custom.js"></script>
+    <script>
+
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
