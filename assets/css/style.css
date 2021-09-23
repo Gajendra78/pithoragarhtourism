@@ -373,7 +373,7 @@ body {
 h1 {
     font-family: 'Allura', cursive;
     /* text-shadow: 1px 1px 1px #171717; */
-    margin: 2rem;
+    margin: 5rem 0;
     color: #003366 !important;
     font-size: 5.5rem;
     font-weight: 600;
@@ -388,7 +388,7 @@ h2, h3, h4, h5, h6 {
 p {
     margin: 2rem 0;
     color: #000000;
-    font-size: 1.33em;
+    font-size: 1.3em;
 }
 
 img {
@@ -2274,7 +2274,7 @@ body {
     color: #fff;
 }
 
-/*================================================ wehere to stay */
+/*================================================ wehere to stay============================================ */
 
 .box {
     position: relative;
@@ -2300,6 +2300,15 @@ body {
     transform: translateY(-50%);
     text-align: center
 }
+.our-services img{
+    height: 15em;
+    width: auto;
+}
+.our-services h4{
+    margin-top: -8rem;
+    font-size: 2em;
+    font-weight:900 ;
+}
 
 .our-services:hover h4, .our-services:hover p {
     color: #fff
@@ -2308,38 +2317,20 @@ body {
 .speedup:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
     transition-delay: 2s;
 }
 
 .settings:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
 }
 
 .privacy:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
-}
-
-.backups:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
-}
-
-.ssl:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
-}
-
-.database:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%);
 }
 
 .wrapper {
