@@ -1311,7 +1311,7 @@ html, body {
 .subscribe {
     position: relative;
     padding: 120px 0;
-    background: url(../images/hotel3.jpg)center fixed;
+    background: url(../images/hotel2.jpg)center fixed;
     background-size: cover;
     z-index: 1;
 }
@@ -1941,195 +1941,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     right: 0;
 }
 
-/* ==============================================about================================== */
-
-.parallax-wrapper {
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: none;
-}
-
-.parallax-wrapper .background {
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex: 1 0 auto;
-    position: relative;
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    transform: translateZ(-1px) scale(2);
-}
-
-.background--spring {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/da/Precincts_of_Watari-jinja_shrine_in_Spring_season_2.JPG');
-}
-
-.background--summer {
-    background-image: url('https://images.pexels.com/photos/375152/summer-sun-blooming-season-375152.jpeg?cs=srgb&dl=beautiful-bloom-blossom-375152.jpg&fm=jpg');
-}
-
-.background--fall {
-    background-image: url('https://images.pexels.com/photos/33060/road-forest-season-autumn.jpg?cs=srgb&dl=autumn-fall-forest-33060.jpg&fm=jpg');
-}
-
-.background--winter {
-    background-image: url('https://images.pexels.com/photos/235595/pexels-photo-235595.jpeg?cs=srgb&dl=branches-cold-season-235595.jpg&fm=jpg');
-}
-
-.parallax-wrapper .title {
-    position: absolute;
-    margin: 0;
-    top: calc(50% - 50px);
-    width: 100%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    height: 100px;
-    color: white;
-    font-size: 5rem;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-.season-desc {
-    z-index: 1;
-    position: relative;
-    background: linear-gradient(#B4F9A5, #9EE7F5, #F5AD94);
-    color: white;
-    font-size: 1.1rem;
-    letter-spacing: 2px;
-    line-height: 2em;
-    padding: 3rem;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-}
-
-.season-desc .desc-wrapper {
-    margin: auto;
-    box-sizing: border-box;
-}
-
-.season-desc .season--title {
-    text-align: center;
-    font-size: 4rem;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin: 20px 0;
-}
-
-.season-desc .season--about {
-    margin-top: 50px;
-    padding: 0;
-}
-
-@media (max-width: 998px) and (orientation: portrait) {
-    .season-desc {
-        padding: 1.5rem 20px;
-        font-size: 1rem;
-        height: unset;
-        min-height: 100vh;
-    }
-    .season-desc .season-title {
-        font-size: 2.5rem;
-        margin: 20px 0;
-        letter-spacing: unset;
-    }
-    .season-desc .season-about {
-        margin-top: 20px;
-    }
-}
-
-#slider {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
-    ;
-}
-
-.slide {
-    width: 100%;
-    display: none;
-    animation-name: fade;
-    animation-duration: 1s;
-}
-
-.slide img {
-    width: 100%;
-    height: 26em;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0.5;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.controls {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1em;
-    padding: 15px 10px;
-    border-radius: 50px;
-}
-
-.controls:hover {
-    background: white;
-    border-radius: 50%;
-    transition: 0.3s;
-}
-
-.controls:active {
-    color: grey;
-}
-
-#left-arrow {
-    left: 10px;
-}
-
-#right-arrow {
-    right: 10px;
-}
-
-#dots-con {
-    text-align: center;
-}
-
-.dot {
-    display: inline-block;
-    background: grey;
-    padding: 8px;
-    border-radius: 50%;
-    margin: 10px 5px;
-}
-
-@media (max-width:576px) {
-    #slider {
-        width: 100%;
-    }
-    .slide img {
-        width: 100%;
-        height: 12em;
-    }
-    .controls {
-        font-size: 1em;
-    }
-    #dots-con {
-        display: none;
-    }
-}
 
 /* ====================================================cusine====================== */
 
@@ -2580,6 +2391,35 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
           transform: translate3d(-100%, 0, 0);
       }
   }
-/* ====================================model============================== */
 
+/* ==================================================================About prallex================================================= */
 
+.about-spring {
+    position: relative;
+    padding: 120px 0;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/d/da/Precincts_of_Watari-jinja_shrine_in_Spring_season_2.JPG') center fixed;
+    background-size: cover;
+    z-index: 1;
+}
+
+.about-summer {
+    position: relative;
+    padding: 120px 0;
+    background:  url('https://images.pexels.com/photos/375152/summer-sun-blooming-season-375152.jpeg?cs=srgb&dl=beautiful-bloom-blossom-375152.jpg&fm=jpg') center fixed;
+    background-size: cover;
+    z-index: 1;
+}
+.about-fall {
+    position: relative;
+    padding: 120px 0;
+    background: url('https://images.pexels.com/photos/33060/road-forest-season-autumn.jpg?cs=srgb&dl=autumn-fall-forest-33060.jpg&fm=jpg') center fixed;
+    background-size: cover;
+    z-index: 1;
+}
+.about-winter{
+    position: relative;
+    padding: 120px 0;
+    background: url('https://images.pexels.com/photos/235595/pexels-photo-235595.jpeg?cs=srgb&dl=branches-cold-season-235595.jpg&fm=jpg')center fixed;
+    background-size: cover;
+    z-index: 1;
+}
