@@ -2175,21 +2175,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /* =========================================================fancy slider=============================== */
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap");
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Nunito", sans-serif;
-}
-
 .slider-container {
     background-color: #fff;
     display: flex;
-    height: 100vh;
+    height: 50vh;
 }
 
 .slide-box {
@@ -2524,4 +2513,73 @@ body {
     }
 }
 
-/* model */
+/*============================================== marquee */
+
+.logoMarqueeSection {
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+  }
+  
+  #logoMarqueeSection {
+    max-width: 1920px!important;
+    margin: 0 auto;
+  }
+  
+  .default-content-container {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      width: 100%;
+      min-height: 100vh;
+  }
+  
+  div.marquee>a>img {
+    height: 120px;
+  }
+  
+  .logoMarqueeSection>div>div {
+      padding-top: 0;
+      padding-bottom: 0;
+      min-height: 0;
+  }
+  
+  .marquee-wrapper {
+    display:  inline-block;
+    white-space: nowrap;
+  }
+  
+  .marquee {
+      display:  inline-block;
+      white-space: nowrap;
+      position: relative;
+      transform: translate3d(0%, 0, 0);
+      animation-name: marquee;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+  }
+  
+  .marquee a {
+      display:  inline-block;
+      white-space: nowrap;
+      padding-right: 5.4rem;
+  }
+  
+  .marquee-wrapper:hover .marquee {
+      animation-play-state: paused !important;
+  }
+  
+  @keyframes marquee {
+      0% {
+          transform: translate3d(0%, 0, 0);
+      }
+  
+      100% {
+          transform: translate3d(-100%, 0, 0);
+      }
+  }
+/* ====================================model============================== */
+
+
