@@ -301,7 +301,6 @@ function changeSlide() {
 
 }
 
-
 const slidesElm = document.querySelectorAll(".slider-container .slide-box");
 
 Array.from(slidesElm).forEach((slide) => {
@@ -310,6 +309,9 @@ Array.from(slidesElm).forEach((slide) => {
     slide.classList.add("active");
   });
 });
+
+
+
 
 
 

@@ -554,7 +554,7 @@ html, body {
 .fancy-cards .fancy-card {
     display: inline-block;
     position: relative;
-    margin: 2rem;
+    margin: 1rem;
     box-sizing: border-box;
 }
 

@@ -69,6 +69,11 @@
         </nav>
 
         <!-- here -->
+        <div class="button">
+            <button><span>Click Me</span></button>
+          </div>
+          
+        
         <div class="mx-auto col-md-9">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
@@ -111,31 +116,41 @@
                             </button>
 
                             <!-- Modal -->
-                            
+
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div><a class="button" href="#popup1">Let me Pop up</a>
+
+                            <div id="popup1" class="overlay">
+                                <div class="popup">
+                                    <h2>Here i am</h2>
+                                    <a class="close" href="#">&times;</a>
+                                    <div class="content">
+                                        Thank to pop me out of that button, but now i'm done so you can close this
+                                        window.lorm
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="card">
                         <img class="card-img-top" src="../assets/images/hotel1.jpg" alt="Bologna">
