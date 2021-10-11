@@ -2406,16 +2406,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     display: block;
     width: 100% !important;
     height: 20rem; 
-      animation-duration: 1.5s;
+    animation-duration: 1.5s;
     animation-name: servicesImgAnimation;
     position: relative;
-    }
+ }
+
    /* =======================================================team========================================== */
-   .card-deck{
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-   }
+
   #contact li{
     font-size: 22px;
     padding: 4px;
@@ -2450,31 +2447,33 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
       margin-top: 8px;
     } 
   }
-  .profile-card-4 {
+  .teamcard {
     content: "";
     margin: 1rem;
-    max-width: 19rem;
     background-color: #FFF;
     border-radius: 5px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
   }
   
-  .profile-card-4 img {
+  .teamcard img {
       transition: all 0.25s linear;
       height: 15rem;
-      width: 19rem;
+      width: 50rem;
   }
   
-  .profile-card-4 .profile-content {
+  .teamcard .team-content {
       position: relative;
       padding: 15px;
       background-color: #FFF;
   }
   
-  .profile-card-4 .profile-name {
+  .teamcard.profile-name {
       font-weight: bold;
       position: absolute;
       left: 0px;
@@ -2485,31 +2484,32 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
       font-size: 1.3rem;
   }
   
-  .profile-card-4 .profile-name p {
+  .teamcard .profile-name p {
       font-weight: 600;
       font-size: 1.2rem;
       letter-spacing: 1.5px;
   }
   
-  .profile-card-4 .profile-description {
+  .teamcard .profile-description {
       color: #777;
       font-size: 1rem;
       
   }
   
-  .profile-card-4 .profile-overview {
+  .teamcard .profile-overview {
       padding: 15px 0px;
-      margin-left: 2rem;
+      margin: auto;
   }
   
-  .profile-card-4 .profile-overview h2 {
+  .teamcard  h2 {
       font-size: 2rem;
       font-weight: 600;
       color: #003366;
       padding: 10px;
+      margin: auto;
   }
   
-  .profile-card-4 .profile-content::before {
+  .teamcard .team-content::before {
       content: "";
       position: absolute;
       height: 20px;
@@ -2521,12 +2521,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
       transform: skewY(3deg);
   }
   
-  .profile-card-4:hover img {
+  .team :hover img {
       transform: rotate(5deg) scale(1.1, 1.1);
       filter: brightness(110%);
       box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   }
-  .profile-card-4 .profile-content button{
+  .team .team-contant button{
     background-color:#003366;
     color:#ccc;
     border: none;
@@ -2534,8 +2534,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     height: 2.5rem;
     width: 10rem;
     border-radius: 5rem;
+    margin: 2rem auto;
   }
-  .profile-card-4 .profile-content button:hover{
+  .team .team-content button:hover{
     color:white;
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   }
+
+
+
+  
