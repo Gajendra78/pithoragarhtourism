@@ -59,7 +59,7 @@ $(document).ready(function () {
   // 3.Countdown timer
 
   function makeTimer() {
-    var endTime = new Date("Dec 2021 12:00:00 IST");
+    var endTime = new Date("Dec 2021 12:00:00 ");
     var endTime = Date.parse(endTime) / 1000;
 
     var now = new Date();
