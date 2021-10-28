@@ -1,13 +1,5 @@
 
-html {
-    font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
-}
 
-body {
-    margin: 0
-}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
@@ -96,10 +88,7 @@ pre {
     overflow: auto
 }
 
-code, kbd, pre, samp {
-    font-family: monospace, monospace;
-    font-size: 1em
-}
+
 
 button, input, optgroup, select, textarea {
     margin: 0;
@@ -175,8 +164,6 @@ table {
 td, th {
     padding: 0
 }
-
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
     *, :after, :before {

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -23,8 +23,21 @@
     box-sizing: border-box;
 }
 
-html {
+
+html, body {
     scroll-behavior: smooth;
+    height: 100%;
+    z-index: 2;
+    background: rgb(118, 255, 157);
+    background: radial-gradient(circle, rgba(118, 255, 157, 0.87718837535014) 0%, rgba(190, 223, 222, 0.8435749299719888) 51%, rgba(158, 197, 255, 0.865983893557423) 100%);
+}
+body {
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .bgcolor {
@@ -37,6 +50,61 @@ html {
     text-align: center;
     justify-content: center;
 }
+
+h1 {
+    font-family: 'Allura', cursive;
+    /* text-shadow: 1px 1px 1px #171717; */
+    margin: 5rem 0;
+    color: #003366 !important;
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 2rem 0;
+    color: #000000;
+    font-size: 1.3em;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+select, input, textarea, button {
+    box-shadow: none;
+    outline: 0!important;
+}
+
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: opacity 0.3s 0.3s ease;
+    -moz-transition: opacity 0.3s 0.3s ease;
+    -ms-transition: opacity 0.3s 0.3s ease;
+    -o-transition: opacity 0.3s 0.3s ease;
+    transition: opacity 0.3s 0.3s ease;
+    opacity: 0;
+}
+
 
 /* ===================================================================Header================================================= */
 
@@ -352,15 +420,7 @@ html {
     color: #fff;
 }
 
-body {
-    position: relative;
-    font-size: 14px;
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
-    max-width: 1920px;
-    margin: 0 auto;
-    overflow-x: hidden;
-}
+
 
 /* a, a:hover, a:active, a:focus {
     display: inline-block;
@@ -369,66 +429,6 @@ body {
     padding: 0;
     margin: 0;
 } */
-
-h1 {
-    font-family: 'Allura', cursive;
-    /* text-shadow: 1px 1px 1px #171717; */
-    margin: 5rem 0;
-    color: #003366 !important;
-    font-size: 5.5rem;
-    font-weight: 600;
-}
-
-h2, h3, h4, h5, h6 {
-    margin: 0;
-    color: #000000;
-    text-transform: capitalize;
-}
-
-p {
-    margin: 2rem 0;
-    color: #000000;
-    font-size: 1.3em;
-}
-
-img {
-    border: none;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-ul li {
-    list-style: none;
-    font-size: 1.3em;
-}
-
-select, input, textarea, button {
-    box-shadow: none;
-    outline: 0!important;
-}
-
-html, body {
-    height: 100%;
-    z-index: 2;
-    background: rgb(118, 255, 157);
-    background: radial-gradient(circle, rgba(118, 255, 157, 0.87718837535014) 0%, rgba(190, 223, 222, 0.8435749299719888) 51%, rgba(158, 197, 255, 0.865983893557423) 100%);
-}
-
-[placeholder]:focus::-webkit-input-placeholder {
-    -webkit-transition: opacity 0.3s 0.3s ease;
-    -moz-transition: opacity 0.3s 0.3s ease;
-    -ms-transition: opacity 0.3s 0.3s ease;
-    -o-transition: opacity 0.3s 0.3s ease;
-    transition: opacity 0.3s 0.3s ease;
-    opacity: 0;
-}
 
 /* ==================================================================Video Background================================================= */
 
@@ -540,14 +540,17 @@ html, body {
 .fancy-cards {
     text-align: center;
     margin: auto;
+    
 }
 
 .card {
     border: none!important;
     background: #fff;
     margin: 40px auto;
+    background: rgba(255, 255, 255, 0.4);
+	 backdrop-filter: blur(20px);
     background: rgb(118, 255, 157);
-    background: radial-gradient(circle, rgba(118, 255, 157, 0.87718837535014) 0%, rgba(190, 223, 222, 0.8435749299719888) 51%, rgba(158, 197, 255, 0.865983893557423) 100%);
+    background: radial-gradient(circle, rgba(118, 255, 157, 0.87718837535014) 0%, rgba(190, 223, 222, 0.8435749299719888) 50%, rgba(158, 197, 255, 0.865983893557423) 100%);
 }
 
 .fancy-cards .fancy-card {
@@ -1948,7 +1951,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     right: 0;
 }
 
-/* ====================================================cusine====================== */
+/* ====================================================side category====================== */
 
 .sidebar .menu-nav {
     background: #003366;
@@ -1993,11 +1996,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /* =========================================================fancy slider=============================== */
 
 .slider-container {
-    background-color: #fff;
+    background-color: #51d6fb;
     display: flex;
     height: 50vh;
 }
-
 .slide-box {
     flex-grow: 1;
     overflow: hidden;
@@ -2060,23 +2062,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     margin-top: 1.5rem;
 }
 
-.slide-box button {
+.slide-box button{
     display: inline-block;
     font-family: "Nunito", sans-serif;
     font-size: 1.1rem;
     margin-top: 1.5rem;
     padding: 5px 25px;
-    background-color: #00a4e4;
-    border: 1px solid #00a4e4;
-    color: #fff;
+    background-color: #003050;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.2s linear;
 }
 
 .slide-box button:hover {
-    background-color: transparent;
-    border-color: #fff;
+    background-color: #003366;
     color: #fff;
 }
 
@@ -2540,7 +2542,3 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     color:white;
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   }
-
-
-
-  

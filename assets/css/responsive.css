@@ -170,6 +170,12 @@
 /*max-width:767px*/
 
 @media screen and (max-width: 660px) {
+	h1 {
+		font-size: 3rem;
+	}
+	p{
+		font-size: 2rem;
+	}
 	.home1-testm-single {
 		max-width: 350px;
 		margin: 0 auto;
