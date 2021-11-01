@@ -87,7 +87,7 @@ ul {
 
 ul li {
     list-style: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 select, input, textarea, button {
@@ -2055,7 +2055,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .slide-box .content h2 {
-    font-size: 2.6rem;
+    color: #FFF;
+    font-size: 3rem;
 }
 
 .slide-box .content p {
