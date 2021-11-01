@@ -1996,9 +1996,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /* =========================================================fancy slider=============================== */
 
 .slider-container {
-    background-color: #51d6fb;
+    background-color: transparent;
     display: flex;
-    height: 50vh;
+    height: 60vh;
 }
 .slide-box {
     flex-grow: 1;
