@@ -2121,8 +2121,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     font-weight: 900;
 }
 
+
 .our-services:hover h4, .our-services:hover p {
-    color: #fff
+    color: #fff;
+    
 }
 
 .speedup:hover {
@@ -2153,7 +2155,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     padding: 10px;
     display: grid;
     grid-gap: 20px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .cards .card {
