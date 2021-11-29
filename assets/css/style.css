@@ -71,7 +71,7 @@ h2, h3, h4, h5, h6 {
 p {
     margin: 2rem 0;
     color: #000000;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 img {
@@ -1963,7 +1963,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     right: 0;
 }
 
-/* ====================================================side category====================== */
+/* ====================================================side category========================================== */
 
 .sidebar .menu-nav {
     background: #003366;
@@ -2005,7 +2005,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     align-items: center;
 }
 
-/* =========================================================fancy slider=============================== */
+/* =========================================================fancy slider=============================== =====================*/
 
 .slider-container {
     background-color: transparent;
@@ -2378,7 +2378,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .about-summer {
     position: relative;
     padding: 120px 0;
-    background: url('https://images.pexels.com/photos/375152/summer-sun-blooming-season-375152.jpeg?cs=srgb&dl=beautiful-bloom-blossom-375152.jpg&fm=jpg') center fixed;
+    background: url('https://www.oyorooms.com/travel-guide/wp-content/uploads/2021/06/Uttarakhand_1.jpg') center fixed;
     background-size: cover;
     z-index: 1;
 }
@@ -2594,4 +2594,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     background-color: #003366;
 }
 
-/* =====================================================================vc msg===================================== */
+/* =====================================================================where to go===================================== */
+.tour-card img{
+width: 100%;
+object-fit: contain;
+}
