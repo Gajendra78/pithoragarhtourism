@@ -1867,6 +1867,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     max-width: 100%;
     height: 12em;
     margin: 3rem auto;
+    cursor: pointer;
     background-color: #333;
     background-size: cover;
     background-position: center;
@@ -1887,6 +1888,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .recentpost img {
     width: 100%;
     height: 12em;
+    
 }
 
 .recentpost .title {
@@ -2591,3 +2593,5 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .sub-nav {
     background-color: #003366;
 }
+
+/* =====================================================================vc msg===================================== */

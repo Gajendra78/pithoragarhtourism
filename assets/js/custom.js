@@ -1,6 +1,8 @@
 $(document).ready(function () {
   "use strict";
-
+  
+  // document.oncontextmenu =new Function("return false;")
+  // document.onselectstart =new Function("return false;")
 
   // 1. Scroll To Top
 
