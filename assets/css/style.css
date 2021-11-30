@@ -63,7 +63,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-    margin: 0;
+    margin: 2rem 0;
     color: #000000;
     text-transform: capitalize;
 }
@@ -2595,7 +2595,3 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 /* =====================================================================where to go===================================== */
-.tour-card img{
-width: 100%;
-object-fit: contain;
-}
