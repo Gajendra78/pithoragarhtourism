@@ -56,7 +56,7 @@ body {
 h1 {
     font-family: 'Allura', cursive;
     /* text-shadow: 1px 1px 1px #171717; */
-    margin: 5rem 0;
+    margin: 3rem 0;
     color: #003366 !important;
     font-size: 5.5rem;
     font-weight: 600;
@@ -832,14 +832,14 @@ select, input, textarea, button {
 }
 
 .packages-para {
-    padding: 17px 0 0;
+    padding: 0px 0 0;
     text-transform: capitalize;
 }
 
 .packages-para p {
     font-size: 14px;
     color: rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Vollkorn', serif;
     margin-bottom: 15px;
 }
 
@@ -857,7 +857,7 @@ select, input, textarea, button {
     margin-left: 20px;
     font-size: 14px;
     color: #aaa;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Vollkorn', serif;
     text-transform: capitalize;
 }
 
