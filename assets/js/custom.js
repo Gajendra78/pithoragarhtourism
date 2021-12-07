@@ -314,12 +314,10 @@ Array.from(slidesElm).forEach((slide) => {
 });
 
 
-
-
-
-
-
-
+// trek page
+// $(function () {
+//   $('#myTab li:last-child a').tab('show');
+// })
 
 
 
