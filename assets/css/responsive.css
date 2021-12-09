@@ -171,13 +171,13 @@
 
 @media screen and (max-width: 660px) {
 	h1 {
-		font-size: 2rem;
+		font-size: 2em;
 	}
 	h2,h3,h4,h5,h6{
-		font-size: 1.6rem;
+		font-size: 1.4em;
 	}
 	p{
-		font-size: 1.3rem;
+		font-size: 1.1em;
 	}
 }
 
