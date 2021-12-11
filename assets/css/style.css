@@ -2627,3 +2627,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 /* =====================================================================where to go===================================== */
+.inner-img{
+    width: 100vw;
+    height: 25em;
+    object-fit:center;
+}

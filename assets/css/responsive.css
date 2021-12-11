@@ -179,6 +179,11 @@
 	p{
 		font-size: 1.1em;
 	}
+	.inner-img{
+		width: 100vw;
+		height: 12em;
+		object-fit:center;
+	}
 }
 
 
