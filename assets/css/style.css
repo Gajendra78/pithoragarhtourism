@@ -21,12 +21,15 @@
     --secondary: #003050;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
     height: 100%;
     z-index: 2;
@@ -63,7 +66,11 @@ h1 {
     font-weight: 600;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 2rem 0;
     color: #000000;
     text-transform: capitalize;
@@ -94,7 +101,10 @@ ul li {
     font-size: 1.2em;
 }
 
-select, input, textarea, button {
+select,
+input,
+textarea,
+button {
     box-shadow: none;
     outline: 0 !important;
 }
@@ -112,10 +122,12 @@ select, input, textarea, button {
 .hindi {
     font-family: 'Amita', cursive;
 }
-.hindi> p{
+
+.hindi>p {
     font-family: 'Karma', serif;
 }
-.button{
+
+.button {
     display: inline-block;
     color: #003366;
     text-decoration: none;
@@ -124,11 +136,13 @@ select, input, textarea, button {
     background-color: transparent;
     transition: all 300ms ease-in;
 }
+
 .button:hover {
     background: #003050;
     color: #ffffff !important;
     border: 0px;
 }
+
 /* ===================================================================Header================================================= */
 
 #header {
@@ -137,7 +151,8 @@ select, input, textarea, button {
     padding: 20px 0;
 }
 
-#header.header-scrolled, #header.header-inner-pages {
+#header.header-scrolled,
+#header.header-inner-pages {
     background: #003366;
     padding: 12px 0;
 }
@@ -218,12 +233,16 @@ select, input, textarea, button {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover>a:before, .nav-menu .active>a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover>a:before,
+.nav-menu .active>a:before {
     visibility: visible;
     width: 100%;
 }
 
-.nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
     color: #fff;
 }
 
@@ -259,7 +278,9 @@ select, input, textarea, button {
     color: #2c4964;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active>a, .nav-menu .drop-down ul li:hover>a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a {
     color: #003366;
 }
 
@@ -391,7 +412,9 @@ select, input, textarea, button {
     text-decoration: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
     color: #003366;
 }
 
@@ -585,7 +608,9 @@ select, input, textarea, button {
     box-sizing: border-box;
 }
 
-.fancy-card .top, .fancy-card .middle, .fancy-card .bottom {
+.fancy-card .top,
+.fancy-card .middle,
+.fancy-card .bottom {
     position: relative;
     border-radius: 3px;
     overflow: hidden;
@@ -728,12 +753,13 @@ select, input, textarea, button {
 .discount-offer {
     padding: 120px 0;
     position: relative;
-    background: url(../images/hotel2.jpg)no-repeat center fixed;
+    background: url(https://res.cloudinary.com/pithoragarhtourism/image/upload/v1640076546/pithoragarhtourism/Munsiyari-Chaukori_td9qyp.jpg)no-repeat center fixed;
     background-size: cover;
     z-index: 1;
 }
 
-.discount-offer:after, .subscribe:after {
+.discount-offer:after,
+.subscribe:after {
     position: absolute;
     content: "";
     top: 0;
@@ -802,7 +828,7 @@ select, input, textarea, button {
 /* ================================================================= Packages ================================================= */
 
 .packages {
-    padding: 120px 0 90px;
+    padding: 90px 0 90px;
 }
 
 .packages-content {
@@ -812,7 +838,7 @@ select, input, textarea, button {
 .single-package-item {
     height: 56rem;
     width: 27rem;
-    margin: 0;
+    margin: 0; 
     padding: 0;
     margin-bottom: 30px;
     padding-bottom: 20px;
@@ -830,6 +856,7 @@ select, input, textarea, button {
 
 .single-package-item img {
     width: 100%;
+    height: 18rem;
 }
 
 .single-package-item h3 {
@@ -859,7 +886,6 @@ select, input, textarea, button {
 .packages-para p {
     font-size: 14px;
     color: rgb(0, 0, 0);
-    font-family: 'Vollkorn', serif;
     margin-bottom: 15px;
 }
 
@@ -972,6 +998,7 @@ select, input, textarea, button {
     right: -25px;
     top: -1px;
 }
+
 
 /* =================================================================Tesitimonial ================================================= */
 
@@ -1127,7 +1154,8 @@ select, input, textarea, button {
     left: 62px;
 }
 
-.single-special-shape-txt h3, .single-special-shape-txt h4 {
+.single-special-shape-txt h3,
+.single-special-shape-txt h4 {
     color: #fff;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
@@ -1423,7 +1451,9 @@ select, input, textarea, button {
     transition: all 0.5s ease-in-out 0s;
 }
 
-.appsLand-btn:hover, .appsLand-btn:focus, .appsLand-btn:active {
+.appsLand-btn:hover,
+.appsLand-btn:focus,
+.appsLand-btn:active {
     text-decoration: none;
     outline: none;
 }
@@ -1530,7 +1560,12 @@ select, input, textarea, button {
     box-shadow: none;
 }
 
-a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
     text-decoration: none;
     outline: none;
 }
@@ -1851,7 +1886,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     transform: translateX(0%);
 }
 
-.pagecard .card .card-body, .card .card-image {
+.pagecard .card .card-body,
+.card .card-image {
     border-radius: 5px;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
@@ -1908,7 +1944,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .recentpost img {
     width: 100%;
     height: 12em;
-    
+
 }
 
 .recentpost .title {
@@ -2155,7 +2191,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 
-.our-services:hover h4, .our-services:hover p {
+.our-services:hover h4,
+.our-services:hover p {
     color: #fff;
 
 }
@@ -2388,11 +2425,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 
 /* =======================================hotel=========================== */
-.staydtl{
-    width:100%;
-    height:20em;
+.staydtl {
+    width: 100%;
+    height: 20em;
 }
-.staydtl img{
+
+.staydtl img {
     height: 100;
     width: 100%;
     object-fit: cover;
@@ -2629,8 +2667,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 /* =====================================================================where to go===================================== */
-.inner-img{
+.inner-img {
     width: 100vw;
     height: 28em;
-    object-fit:center;
+    object-fit: center;
 }
